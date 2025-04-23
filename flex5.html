@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 5</title>
+    <style>
+       .container1{
+        display: flex;
+        flex-wrap: nowrap;
+       } 
+
+       .container2{
+        display: flex;
+        flex-wrap: wrap;
+       }
+
+       .container3{
+        display: flex;
+        flex-wrap: wrap-reverse;
+       }
+       .item{
+        background: cyan;
+        padding: 10px;
+        margin: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+        <div class="item">項目4</div>
+        <div class="item">項目5</div>
+        <div class="item">項目6</div>
+        <div class="item">項目7</div>
+    </div>
+    <br>
+    <div class="container2">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+        <div class="item">項目4</div>
+        <div class="item">項目5</div>
+        <div class="item">項目6</div>
+        <div class="item">項目7</div>
+    </div>
+    <br>
+    <div class="container3">
+        <div class="item">項目1</div>
+        <div class="item">項目2</div>
+        <div class="item">項目3</div>
+        <div class="item">項目4</div>
+        <div class="item">項目5</div>
+        <div class="item">項目6</div>
+        <div class="item">項目7</div>
+    </div>
+</body>
+</html>

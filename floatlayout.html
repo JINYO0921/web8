@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            width: 100%;
+            min-width: 600px;
+            max-width: 960px;
+            background: beige;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        header{
+            width: 100%;
+            background: #eaeaea;
+        }
+
+        main{
+            flex: 1;
+            margin: 10px;
+            background-color: red;
+            height: 300px;
+        }
+
+        div{
+            flex: 1;
+            margin: 10px;
+            background-color: yellow;
+            height: 300px;
+        }
+
+        aside{
+            flex: 1;
+            margin: 10px;
+            background-color: blue;
+            height: 300px;
+        }
+
+        footer{
+            width: 100%;
+            background: #eaeaea;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>首頁</h1></header>
+    <main><h1>主要內容</h1></main>
+    <div><h1>中間內容</h1></div>
+    <aside><h1>側邊欄</h1></aside>
+    <footer><h1>頁尾</h1></footer>
+</body>
+</html>
